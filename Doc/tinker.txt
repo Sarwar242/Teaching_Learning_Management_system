@@ -1,0 +1,5 @@
+$admin = new App\Admin;
+$admin->name = "john joe";
+$admin->email = "admin@admin.com";
+$admin->password = Hash::make("password");
+$admin->save();
